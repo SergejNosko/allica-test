@@ -1,0 +1,16 @@
+.character-card {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    &__link {
+        padding: 16px;
+        color: #000;
+        text-decoration: none;
+    }
+}
